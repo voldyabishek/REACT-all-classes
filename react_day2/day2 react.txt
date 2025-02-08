@@ -1,0 +1,47 @@
+2nd-class-
+topics}
+     * how do create Header&footer(components)&background color set pantrathu
+
+   *props na (props la kudutha) 
+      example/-Header.jsx
+             import React from 'react'
+import Navigation from './Navigation'
+
+export const Header = (props) => {
+  return (
+    <header className={props.nav}>
+      {props.name}
+       <Navigation/>
+    </header>
+  )
+}
+-------------
+app.jsx
+ example/-
+    *
+import './App.css'
+import { Header } from './components/Header'
+
+function App() {
+  
+         const name="abi"
+         
+
+  return (
+    <>
+    <Header name ={name} />
+    </>
+  )
+}
+
+
+
+
+
+    
+
+          
+   
+
+
+           

@@ -1,0 +1,41 @@
+1st :
+     *four components create pantrathu like a , home,wapp,skill,box.jsx
+----
+ wapp.jsx  la
+         *function(const wapp) la namaku thevaiyana data lam kuduthutu,enga naama show pananaum nenaikiramo , anga nama mention panikanum like a (header.jsx kulla </navaigation/> mention pantra maathiri)
+---------------------
+*images ahh public file kula image endra folder create pani vachikanum(use pana pora images ipdi tha import pani vauikanum)
+----------------
+     Home.jsx:--
+   1.)home.jsx la- eppdi wapp data  va recive  panikitu,  eppdi  map pantrathu nu paakurathu**.
+    ->how code write:-
+                      -->info.map(())<!--map,kulla wapp la kudutha data ku 2name kuduthukuaran kudukura name thodarnthu varum like;..a,b(or)x,y ipdi thodarnthu vara maathiri name kudukanum--!>. 
+
+2.)Box data va epdi mention pani ,box.jsx ku eppdi send pantranu paakurathu 
+--->how code write:- =>(Box  data={i}></Box>
+
+   final code :-
+             {
+          info.map(ajay,abi)=>(Box data={ajay}></Box>))
+            }
+----------------------
+       Box.jsx:--
+         1.)  *div kulla rendu data va  vachikiran 
+     2.)  NEXT.)
+            * ul tag open ,close pani -->athula Box.jsx map pani ,skill.jsx send pantran like,inatha maathiri
+                   code :-- <ul>
+                                       {
+                                    data.skills.map((item,index)=>{item}/>))
+                                      } /*ithu la skills nu ingarathu wapp.jsx la kudutha data skills*/
+                                </ul>
+----------------------       
+                                               
+skill.jsx:-
+    1.)const props kuduthu
+2.)return la <li> create panikitu 
+ code:-
+     {props.item.toUpperCase()} ///nu kuduthukuran//
+
+           
+
+

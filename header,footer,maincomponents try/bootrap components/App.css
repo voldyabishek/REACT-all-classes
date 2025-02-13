@@ -1,0 +1,103 @@
+/* navbar naa try  panathu*/
+/* Custom Navbar Styling 
+.custom-navbar {
+    background-color: #343a40; /* Dark background 
+    padding: 15px 20px;
+  }
+  
+  /* Navbar Brand 
+  .custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+  }
+  
+  /* Navbar Links 
+  .custom-navbar .nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #17a2b8 !important; /* Bootstrap's info color 
+  }
+  
+  /* Active Link 
+  .custom-navbar .nav-link.active {
+    color: #ffc107 !important; /* Bootstrap's warning color 
+  }*/
+  
+
+  /*chat gpt la css try panathu/*
+
+   /* Custom Navbar Styling */
+/* Custom Navbar Styling */
+.custom-navbar {
+    background-color: #343a40; /* Dark background */
+    padding: 12px 20px; /* Slightly reduced padding for better spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Navbar Brand */
+  .custom-navbar .navbar-brand {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .custom-navbar .navbar-brand:hover {
+    color: #ffc107 !important; /* Bootstrap's warning color */
+  }
+  
+  /* Navbar Links */
+  .custom-navbar .nav-link {
+    color: #ffffff !important;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #17a2b8 !important; /* Bootstrap's info color */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }
+  
+  /* Active Link */
+  .custom-navbar .nav-link.active {
+    color: #ffc107 !important; /* Bootstrap's warning color */
+    font-weight: bold;
+  }
+  
+  /* Navbar Toggler (for mobile menu) */
+  .custom-navbar .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .custom-navbar .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  /* Navbar Collapse Animation */
+  @media (max-width: 991px) {
+    .custom-navbar .navbar-collapse {
+      background-color: #343a40; /* Match the navbar background */
+      padding: 10px;
+      border-radius: 8px;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  
+  /* Smooth transition for small screens */
+  @media (max-width: 767px) {
+    .custom-navbar .nav-link {
+      display: block;
+      text-align: center;
+      padding: 12px;
+    }
+  }
+  
+  

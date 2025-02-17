@@ -1,0 +1,15 @@
+react 4th class:---->topic:usestate(setNUM,set,NAME,set,PASSWORD)
+        1day :-
+              *usestate use with Number add pantrathu. AND 
+               *input la type panna live ahh ve show pantrathu.
+         2nday :-
+              *name and password ahh set pantrathu(useState vachi).
+
+---------------------
+React 5th class:--->topic:usestate la useEFFECTS(setDATA)
+         1day:-
+               * Backend la json format la kudukura file(or) data va , naama inga frontend moolamaga 
+                  kudutha data va website la show panuvom
+     
+           2Day:-
+               * effect.jsx La kudutha all data va eppdi seprate seprate component ahh pirichi kaatanum nu{useState ahh use pani Effect.jsx,setData kuduthu, different component ahh oru setData la code eluthuvonm}

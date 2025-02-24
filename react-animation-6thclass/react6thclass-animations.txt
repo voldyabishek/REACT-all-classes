@@ -1,0 +1,14 @@
+react-6th-class-animations
+     1.)install style emotion
+            *example  terminal code:- npm install emotion
+
+2.)how do set up styled,icons,animation:
+       these terminal codes:-
+         *styled :-"@emotion/styled"
+         *icons:-npm i react-icons
+         *animation:-npm i framer-motion
+
+3.)how import these setups:-
+          *import styled from "@emotion/styled";// Styling
+           *import { motion } from "framer-motion"; // Animations
+            *import { FaAndroid,FaDatabase, FaWpforms } from "react-icons/fa";//fonts

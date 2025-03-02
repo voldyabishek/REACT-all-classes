@@ -1,0 +1,39 @@
+/* Animates.css */
+.container {
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(195, 4, 4);
+  font-size: 2rem;
+}
+
+.first-section {
+  background-color: #2d2d2d; /* Equivalent to bg-gray-800 */
+}
+
+.second-section {
+  background-color: #1e40af; /* Equivalent to bg-blue-500 */
+}
+
+.third-section {
+  background-color: #111111; /* Equivalent to bg-gray-900 */
+}
+
+.motion-div {
+  font-size: 3rem; /* Equivalent to text-6xl */
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.motion-div.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}

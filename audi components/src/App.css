@@ -1,0 +1,367 @@
+
+* {
+
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: Eras Demi ITC;
+ 
+}
+/* #navbars{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ 
+} */
+
+#navbars {
+  background: white; /* White background */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 10px 20px; /* Adds padding */
+  border-radius: 8px; /* Slightly rounded corners */
+  transition: all 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+#navbars:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px, rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Optional: Adding border and text color for better visibility */
+#navbars a {
+  color: #333; /* Dark text for contrast */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navbars a:hover {
+  color: #007bff; /* Blue highlight on hover */
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.navbar a{
+    color:black;
+
+}
+
+ .car1 img, .car2 img{
+  /* background-color: #160e0e; */
+  width:100vw ;
+  height:100vh;
+}
+
+.car1text{
+ position:absolute;
+ top:0px;
+ left:40px;
+ color:white;
+ font-size:40px auto ;
+ 
+}
+
+
+
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+#section1{
+  position:relative;
+  top:0px;
+
+} 
+ #section1 button {
+  color: rgb(0, 0, 0);
+}
+
+#section1 button:hover {
+  background-color: #e22319cd;
+}
+
+
+#loginpage{
+  height:400px;
+  width:700px;
+  border:1px solid;
+  border-radius: 20px;
+  background-color:rgba(128, 128, 128, 0.719);
+  
+}
+
+
+.signupbtn button{
+ position:absolute;
+ top:10px;
+ right:20px;
+  
+}
+
+
+/* 2nd try signup css */
+
+#signupform{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 15px;
+  background: #16a085;
+  overflow: hidden;
+}
+
+
+.wrapper {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.wrapper .title {
+  height: 120px;
+  background: #16a085;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form {
+  padding: 25px 35px;
+}
+.wrapper form .row {
+  height: 60px;
+  margin-top: 15px;
+  position: relative;
+}
+.wrapper form .row input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 70px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+form .row input:focus {
+  border-color: #16a085;
+}
+form .row input::placeholder {
+  color: #999;
+}
+.wrapper form .row i {
+  position: absolute;
+  width: 55px;
+  height: 100%;
+  color: #fff;
+  font-size: 22px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass {
+  margin-top: 12px;
+}
+.wrapper form .pass a {
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover {
+  text-decoration: underline;
+}
+.wrapper form .button input {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  cursor: pointer;
+}
+form .button input:hover {
+  background: #12876f;
+}
+.wrapper form .signup-link {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a {
+  color: #16a085;
+  text-decoration: none;
+}
+form .signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* section2 all models css*/
+#our-models {
+  position:absolute;
+ bottom: 20px;
+}
+
+.our-models h2 {
+  text-align: center;
+  font-size: 65px;
+  border-bottom-width: 40px;
+}
+
+.our-models p {
+        text-align: center;
+          text-decoration:underline;
+        }
+
+        
+        
+       /*coursel css  */
+    
+/* General Carousel Styling */
+#carouselExample {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Image Styling */
+.carousel-item img {
+  height: 85vh;
+  object-fit: cover;
+  filter: brightness(80%);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Zoom-in Effect on Slide */
+.carousel-item.active img {
+  transform: scale(1.07);
+}
+
+/* Gradient Overlay for Better Text Visibility */
+.carousel-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading and Paragraph Styling */
+.carousel-caption h5 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-size: 1.3rem;
+  color: #ddd;
+  letter-spacing: 1px;
+}
+
+/* Custom Navigation Arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  padding: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.2);
+}
+
+/* Dots (Indicators) Styling */
+.carousel-indicators [data-bs-target] {
+  background-color: #fff;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.carousel-indicators .active {
+  background-color: #007bff;
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+/* Hover Effect on Indicators */
+.carousel-indicators [data-bs-target]:hover {
+  background-color: #0056b3;
+  opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .carousel-caption {
+      width: 80%;
+      font-size: 1rem;
+      padding: 15px;
+  }
+  
+  .carousel-caption h5 {
+      font-size: 1.8rem;
+  }
+  
+  .carousel-caption p {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+      width: 90%;
+      padding: 12px;
+  }
+
+  .carousel-caption h5 {
+      font-size: 1.5rem;
+  }
+  
+  .carousel-caption p {
+      font-size: 0.9rem;
+  }
+
+  .carousel-item img {
+      height: 70vh;
+  }
+}

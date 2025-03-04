@@ -1,0 +1,68 @@
+/* Navbar with Bottom Box Shadow */
+#navbar {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover effect on navbar items */
+  #navbar .nav-link {
+    transition: color 0.3s ease;
+  }
+  
+  #navbar .nav-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Active link styling */
+  #navbar .nav-item .nav-link.active {
+    color: #0056b3 !important;
+    font-weight: bold;
+  }
+  
+  /* Navbar toggle button color on hover */
+  /* .navbar-toggler-icon {
+    background-color:#007bff ;
+  } */
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  /* For Mobile responsiveness */
+  @media (max-width: 991.98px) {
+    #navbar {
+      background-color: #f8f9fa;
+    }
+  
+    .navbar-toggler {
+      border: 1px solid #007bff;
+    }
+  
+    /* .navbar-toggler-icon {
+      background-color: black;
+    } */
+  }
+  
+  /* Make sure the navbar container is responsive and has padding */
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Make the search form responsive on small screens */
+  @media (max-width: 575.98px) {
+    .d-flex {
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .form-control {
+      width: 80%;
+    }
+  
+    .btn-outline-success {
+      width: 100%;
+    }
+  }
+  

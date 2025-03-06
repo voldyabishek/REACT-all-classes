@@ -1,0 +1,148 @@
+/* General Container Styling */
+body {
+    background-image: url("img-5.avif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .hero-section p {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  /* Category Buttons */
+  .category-filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .category-filters button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .category-filters .active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .category-filters button:not(.active) {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  .category-filters button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  /* Package Grid */
+  .packages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Package Card */
+  .package-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Package Image */
+  .package-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Package Content */
+  .package-content {
+    padding: 15px;
+  }
+  
+  .package-content h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .package-content p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .package-content .price {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  /* Book Now Button */
+  .book-now {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .book-now:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .category-filters {
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+  
+    .category-filters button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
